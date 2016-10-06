@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		33E000A81D3B0B94004FC254 /* KeyboardBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E000A71D3B0B94004FC254 /* KeyboardBar.m */; };
+		33E000AC1D3B0C33004FC254 /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E000AB1D3B0C33004FC254 /* CustomView.m */; };
+		33E000B11D4D446E004FC254 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E000AE1D4D446E004FC254 /* FMDatabase.m */; };
+		33E000B21D4D446E004FC254 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E000B01D4D446E004FC254 /* FMResultSet.m */; };
+		33E000B41D4D4536004FC254 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 33E000B31D4D4536004FC254 /* libsqlite3.dylib */; };
+		33E000B61D4D62AB004FC254 /* BudgetKeeper.db in Resources */ = {isa = PBXBuildFile; fileRef = 33E000B51D4D62AB004FC254 /* BudgetKeeper.db */; };
+		33E000B81D4D64E0004FC254 /* FMDBDataAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E000B71D4D64E0004FC254 /* FMDBDataAccess.m */; };
 		33E240E91BA4ED3100CFDE46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E240E81BA4ED3100CFDE46 /* main.m */; };
 		33E240EC1BA4ED3100CFDE46 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E240EB1BA4ED3100CFDE46 /* AppDelegate.m */; };
 		33E240EF1BA4ED3100CFDE46 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E240EE1BA4ED3100CFDE46 /* ViewController.m */; };
@@ -14,6 +21,8 @@
 		33E240F41BA4ED3100CFDE46 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33E240F31BA4ED3100CFDE46 /* Images.xcassets */; };
 		33E240F71BA4ED3100CFDE46 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33E240F51BA4ED3100CFDE46 /* LaunchScreen.xib */; };
 		33E241031BA4ED3200CFDE46 /* BudgetKeeperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E241021BA4ED3200CFDE46 /* BudgetKeeperTests.m */; };
+		33E241111BA527F100CFDE46 /* BudgetKeeperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E241101BA527F100CFDE46 /* BudgetKeeperViewController.m */; };
+		33E241171BADFB2F00CFDE46 /* ExpenseItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E241161BADFB2F00CFDE46 /* ExpenseItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +36,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		33E000A71D3B0B94004FC254 /* KeyboardBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardBar.m; sourceTree = "<group>"; };
+		33E000A91D3B0BA0004FC254 /* KeyboardBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyboardBar.h; sourceTree = "<group>"; };
+		33E000AA1D3B0C26004FC254 /* CustomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
+		33E000AB1D3B0C33004FC254 /* CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
+		33E000AD1D4D446E004FC254 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = "../../../Downloads/fmdb-master/src/fmdb/FMDatabase.h"; sourceTree = "<group>"; };
+		33E000AE1D4D446E004FC254 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = "../../../Downloads/fmdb-master/src/fmdb/FMDatabase.m"; sourceTree = "<group>"; };
+		33E000AF1D4D446E004FC254 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = "../../../Downloads/fmdb-master/src/fmdb/FMResultSet.h"; sourceTree = "<group>"; };
+		33E000B01D4D446E004FC254 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = "../../../Downloads/fmdb-master/src/fmdb/FMResultSet.m"; sourceTree = "<group>"; };
+		33E000B31D4D4536004FC254 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		33E000B51D4D62AB004FC254 /* BudgetKeeper.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = BudgetKeeper.db; sourceTree = "<group>"; };
+		33E000B71D4D64E0004FC254 /* FMDBDataAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDBDataAccess.m; sourceTree = "<group>"; };
+		33E000B91D4D64F5004FC254 /* FMDBDataAccess.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMDBDataAccess.h; sourceTree = "<group>"; };
 		33E240E31BA4ED3100CFDE46 /* BudgetKeeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BudgetKeeper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33E240E71BA4ED3100CFDE46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		33E240E81BA4ED3100CFDE46 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +61,10 @@
 		33E240FC1BA4ED3200CFDE46 /* BudgetKeeperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BudgetKeeperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33E241011BA4ED3200CFDE46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		33E241021BA4ED3200CFDE46 /* BudgetKeeperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BudgetKeeperTests.m; sourceTree = "<group>"; };
+		33E2410F1BA527F100CFDE46 /* BudgetKeeperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BudgetKeeperViewController.h; sourceTree = "<group>"; };
+		33E241101BA527F100CFDE46 /* BudgetKeeperViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BudgetKeeperViewController.m; sourceTree = "<group>"; };
+		33E241151BADFB2F00CFDE46 /* ExpenseItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpenseItem.h; sourceTree = "<group>"; };
+		33E241161BADFB2F00CFDE46 /* ExpenseItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpenseItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33E000B41D4D4536004FC254 /* libsqlite3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +89,7 @@
 		33E240DA1BA4ED3100CFDE46 = {
 			isa = PBXGroup;
 			children = (
+				33E000B31D4D4536004FC254 /* libsqlite3.dylib */,
 				33E240E51BA4ED3100CFDE46 /* BudgetKeeper */,
 				33E240FF1BA4ED3200CFDE46 /* BudgetKeeperTests */,
 				33E240E41BA4ED3100CFDE46 /* Products */,
@@ -81,14 +108,28 @@
 		33E240E51BA4ED3100CFDE46 /* BudgetKeeper */ = {
 			isa = PBXGroup;
 			children = (
+				33E241151BADFB2F00CFDE46 /* ExpenseItem.h */,
+				33E241161BADFB2F00CFDE46 /* ExpenseItem.m */,
 				33E240EA1BA4ED3100CFDE46 /* AppDelegate.h */,
 				33E240EB1BA4ED3100CFDE46 /* AppDelegate.m */,
 				33E240ED1BA4ED3100CFDE46 /* ViewController.h */,
 				33E240EE1BA4ED3100CFDE46 /* ViewController.m */,
 				33E240F01BA4ED3100CFDE46 /* Main.storyboard */,
+				33E2410F1BA527F100CFDE46 /* BudgetKeeperViewController.h */,
+				33E241101BA527F100CFDE46 /* BudgetKeeperViewController.m */,
+				33E000AD1D4D446E004FC254 /* FMDatabase.h */,
+				33E000AE1D4D446E004FC254 /* FMDatabase.m */,
+				33E000AF1D4D446E004FC254 /* FMResultSet.h */,
+				33E000B01D4D446E004FC254 /* FMResultSet.m */,
 				33E240F31BA4ED3100CFDE46 /* Images.xcassets */,
 				33E240F51BA4ED3100CFDE46 /* LaunchScreen.xib */,
 				33E240E61BA4ED3100CFDE46 /* Supporting Files */,
+				33E000A71D3B0B94004FC254 /* KeyboardBar.m */,
+				33E000A91D3B0BA0004FC254 /* KeyboardBar.h */,
+				33E000AA1D3B0C26004FC254 /* CustomView.h */,
+				33E000AB1D3B0C33004FC254 /* CustomView.m */,
+				33E000B71D4D64E0004FC254 /* FMDBDataAccess.m */,
+				33E000B91D4D64F5004FC254 /* FMDBDataAccess.h */,
 			);
 			path = BudgetKeeper;
 			sourceTree = "<group>";
@@ -96,6 +137,7 @@
 		33E240E61BA4ED3100CFDE46 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				33E000B51D4D62AB004FC254 /* BudgetKeeper.db */,
 				33E240E71BA4ED3100CFDE46 /* Info.plist */,
 				33E240E81BA4ED3100CFDE46 /* main.m */,
 			);
@@ -201,6 +243,7 @@
 			files = (
 				33E240F21BA4ED3100CFDE46 /* Main.storyboard in Resources */,
 				33E240F71BA4ED3100CFDE46 /* LaunchScreen.xib in Resources */,
+				33E000B61D4D62AB004FC254 /* BudgetKeeper.db in Resources */,
 				33E240F41BA4ED3100CFDE46 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,7 +264,14 @@
 			files = (
 				33E240EF1BA4ED3100CFDE46 /* ViewController.m in Sources */,
 				33E240EC1BA4ED3100CFDE46 /* AppDelegate.m in Sources */,
+				33E241171BADFB2F00CFDE46 /* ExpenseItem.m in Sources */,
 				33E240E91BA4ED3100CFDE46 /* main.m in Sources */,
+				33E000B81D4D64E0004FC254 /* FMDBDataAccess.m in Sources */,
+				33E000AC1D3B0C33004FC254 /* CustomView.m in Sources */,
+				33E241111BA527F100CFDE46 /* BudgetKeeperViewController.m in Sources */,
+				33E000B21D4D446E004FC254 /* FMResultSet.m in Sources */,
+				33E000A81D3B0B94004FC254 /* KeyboardBar.m in Sources */,
+				33E000B11D4D446E004FC254 /* FMDatabase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +468,7 @@
 				33E241081BA4ED3200CFDE46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		33E241091BA4ED3200CFDE46 /* Build configuration list for PBXNativeTarget "BudgetKeeperTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +477,7 @@
 				33E2410B1BA4ED3200CFDE46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
